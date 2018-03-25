@@ -1,6 +1,6 @@
 [ignore]
 .*/node_modules
-./scripts
+.*/dist
 ./flow-typed
 
 [include]

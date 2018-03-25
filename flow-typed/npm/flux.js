@@ -14,11 +14,14 @@
  * limitations under the License.
  */
 
-// @flow
+type DispatchToken = string;
 
-import * as React from 'react';
-import type { Metric } from '../types';
-
-const ReportView = (props: { reports: Array<Metric> }) => (<div>First Test { props.reports }</div>);
-
-export default ReportView;
+declare module 'flux' {
+  declare class Dispatcher<TPayload> {
+    register(callback: (payload: TPayload) => void): DispatchToken;
+    unregister(id: DispatchToken): void;
+    waitFor(ids: Array<DispatchToken>): void;
+    dispatch(payload: TPayload): void;
+    isDispatching(): boolean;
+  }
+}
