@@ -18,7 +18,6 @@
     "transform-class-properties",
     "transform-object-rest-spread",
     "syntax-dynamic-import",
-    "add-module-exports",
     "transform-async-to-generator",
     [
       "babel-plugin-styled-components",
