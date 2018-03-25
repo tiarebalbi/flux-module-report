@@ -1,5 +1,7 @@
 # flux-module-reports
 
+![npm (scoped)](https://img.shields.io/npm/v/@tiarebalbi/flux-module-reports.svg)
+[![](https://data.jsdelivr.com/v1/package/npm/@tiarebalbi/flux-module-reports/badge)](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-module-reports)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ----
 
@@ -18,13 +20,9 @@ main sample [flux-main-sample](https://github.com/tiarebalbi/flux-main-sample).
 - [Flowtype](https://flowtype.org/) Type checker
 - [React](https://facebook.github.io/react/) User interface components
 - [Flux](http://facebook.github.io/flux/) Application Architecture For Building User Interfaces
-- [Lodash](https://lodash.com/) Utility library
 - [Babel](https://babeljs.io/) JavaScript transpiler
 - [ESLint](http://eslint.org/) JavaScript Linter
 - [Prettier](https://github.com/prettier/prettier) Code formatter
-- [PostCSS](http://postcss.org/) CSS transformer
-- [Stylelint](https://stylelint.io/) CSS Linter
-- [Webpack](https://webpack.js.org/) Module bundler
 - [Jest](https://facebook.github.io/jest/) Testing solution
 
 ## How do I use this?
@@ -39,14 +37,6 @@ Install the project dependencies using Yarn.
 
 ```bash
 yarn
-```
-
-### Development server
-
-You can start the development server with the `start` script.
-
-```bash
-yarn start
 ```
 
 ### Distribution build
@@ -70,6 +60,3 @@ yarn test
 
 [Apache-2](LICENSE)
 
-# Credits
-On this project I'm using the [digiaonline/react-boilerplate](https://github.com/digiaonline/react-boilerplate)
-boilerplate with some changes to replace MobX to Facebook Flux.
