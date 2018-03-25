@@ -1,5 +1,8 @@
 # flux-module-reports
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/40c4f2c4e9ef9df6c270/maintainability)](https://codeclimate.com/github/tiarebalbi/flux-module-reports/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/40c4f2c4e9ef9df6c270/test_coverage)](https://codeclimate.com/github/tiarebalbi/flux-module-reports/test_coverage)
+[![Build Status](https://travis-ci.org/tiarebalbi/flux-module-reports.svg?branch=master)](https://travis-ci.org/tiarebalbi/flux-module-reports)
 ![npm (scoped)](https://img.shields.io/npm/v/@tiarebalbi/flux-module-reports.svg)
 [![](https://data.jsdelivr.com/v1/package/npm/@tiarebalbi/flux-module-reports/badge)](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-module-reports)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
