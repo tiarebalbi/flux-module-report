@@ -1,0 +1,7 @@
+/build
+/config
+/scripts
+/flow-typed
+**/**/__tests__
+**/__tests__
+__tests__
