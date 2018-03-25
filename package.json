@@ -1,6 +1,6 @@
 {
   "name": "@tiarebalbi/flux-module-reports",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Module of Reports in the Code Splitting sample with Flux and React",
   "main": "src/index.js",
   "repository": "git@github.com:tiarebalbi/flux-module-reports.git",
@@ -95,8 +95,7 @@
     "delete": "yarn delete:modules && yarn delete:build && yarn delete:coverage",
     "delete:modules": "rm -rf node_modules packages/*/node_modules",
     "delete:build": "rm -rf packages/*/dist",
-    "delete:coverage": "rm -rf packages/*/coverage",
-    "publish": "yarn build && yarn publish --access=public"
+    "delete:coverage": "rm -rf packages/*/coverage"
   },
   "jest": {
     "collectCoverageFrom": [
