@@ -8,6 +8,13 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ----
 
+| Platform       | Details                                    |
+| -------------- |:------------------------------------------:|
+| Install        | `yarn add @tiarebalbi/flux-module-reports` |
+| npm            | `@tiarebalbi/flux-module-reports`          |
+| Bundle         | [unpkg.com](https://unpkg.com/@tiarebalbi/flux-module-reports)  |
+| CDN            | [jsdelivr.com](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-module-reports)  |
+
 ## Summary
 
 Sample application using the concept of code splitting and this repository will hold all packages used in the
