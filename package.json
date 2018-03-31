@@ -45,7 +45,7 @@
     "react-dom": "^16.2.0",
     "style-loader": "0.20.3",
     "url-loader": "1.0.1",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.4"
   },
   "devDependencies": {
     "copy-pkg": "^1.0.0",
