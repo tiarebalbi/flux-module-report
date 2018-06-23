@@ -9,7 +9,7 @@
   "dependencies": {
     "autoprefixer": "8.6.3",
     "babel-core": "6.26.3",
-    "babel-eslint": "8.2.3",
+    "babel-eslint": "8.2.4",
     "babel-jest": "23.0.1",
     "babel-loader": "7.1.4",
     "babel-plugin-styled-components": "^1.5.1",
