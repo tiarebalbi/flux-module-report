@@ -56,7 +56,7 @@
     "flow-bin": "0.111",
     "flow-copy-source": "^2.0.8",
     "flow-coverage-report": "^0.6.1",
-    "flow-typed": "^2.6.2",
+    "flow-typed": "^3.0.0",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
     "jest-enzyme": "^7.1.2",
