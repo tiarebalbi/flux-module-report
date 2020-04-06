@@ -4279,15 +4279,15 @@ flow-bin@0.111:
   integrity sha512-fOFFy4rsvV4zYXUqpNY2bChpzEMYbmumO6DlbcpndbJIHY3W8+UzyiWb8+iRDf2ME1YJgTIvKSJCzHpQ40OBOQ==
 
 flow-copy-source@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/flow-copy-source/-/flow-copy-source-2.0.8.tgz#0281676590b28ad6a9bbc63a1e0d36bcea9e2db5"
-  integrity sha512-BGOxGcUbNvEwLaoy7YsAMuIG6S0qOLAJiPzuRQI84WFv+V4oLBFj9Mt5HPH5BMCmS0eGncdKZidJu7VSJ57V5A==
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/flow-copy-source/-/flow-copy-source-2.0.9.tgz#0c94ad842f2ae544d5a6b8ae720cee0b8678d742"
+  integrity sha512-7zX/oHSIHe8YRGiA9QIcC4SW6KF667ikdmiDfbST15up1Ona8dn7Xy0PmSrfw6ceBWDww8sRKlCLKsztStpYkQ==
   dependencies:
     chokidar "^3.0.0"
     fs-extra "^8.1.0"
     glob "^7.0.0"
     kefir "^3.7.3"
-    yargs "^14.0.0"
+    yargs "^15.0.1"
 
 flow-coverage-report@^0.6.1:
   version "0.6.1"
@@ -9914,14 +9914,6 @@ yargs-parser@^13.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
-  integrity sha512-xLTUnCMc4JhxrPEPUYD5IBR1mWCK/aT6+RJ/K29JY2y1vD+FhtgKK0AXRWvI262q3QSffAQuTouFIKUuHX89wQ==
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs-parser@^18.1.1:
   version "18.1.2"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.2.tgz#2f482bea2136dbde0861683abea7756d30b504f1"
@@ -9990,24 +9982,7 @@ yargs@^13.2.4:
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
 
-yargs@^14.0.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.0.tgz#f116a9242c4ed8668790b40759b4906c276e76c3"
-  integrity sha512-/is78VKbKs70bVZH7w4YaZea6xcJWOAwkhbR0CFuZBmYtfTYF0xjGJF43AYd8g2Uii1yJwmS5GR2vBmrc32sbg==
-  dependencies:
-    cliui "^5.0.0"
-    decamelize "^1.2.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^15.0.0"
-
-yargs@^15.3.1:
+yargs@^15.0.1, yargs@^15.3.1:
   version "15.3.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.3.1.tgz#9505b472763963e54afe60148ad27a330818e98b"
   integrity sha512-92O1HWEjw27sBfgmXiixJWT5hRBp2eobqXicLtPBIDBhYB+1HpwZlXmbW2luivBJHBzki+7VyCLRtAkScbTBQA==
