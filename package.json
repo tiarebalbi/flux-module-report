@@ -7,7 +7,7 @@
   "author": "Tiarê Balbi <me@tiarebalbi.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "autoprefixer": "9.7.1",
+    "autoprefixer": "9.7.5",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.3",
     "babel-jest": "24.9.0",
