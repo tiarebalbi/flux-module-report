@@ -7,8 +7,8 @@ node_js:
   - "12" # latest stable Node.js release
 
 install:
-  - yarn global add codeclimate-test-reporter
-  - yarn --frozen-lockfile
+  - npm install -g codeclimate-test-reporter
+  - npm install 
 
 script:
   - yarn run ci
