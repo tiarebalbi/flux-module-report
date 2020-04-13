@@ -1,7 +1,7 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
         "modules": false,
         "targets": {
@@ -11,14 +11,14 @@
         }
       }
     ],
-    "react",
-    "flow"
+    "@babel/preset-react",
+    "@babel/preset-flow"
   ],
   "plugins": [
-    "transform-class-properties",
-    "transform-object-rest-spread",
-    "syntax-dynamic-import",
-    "transform-async-to-generator",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-async-to-generator",
     [
       "babel-plugin-styled-components",
       {
@@ -31,18 +31,18 @@
     "production:cjs": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "modules": "commonjs"
           }
         ],
-        "react",
-        "flow"
+        "@babel/preset-react",
+        "@babel/preset-flow"
       ],
       "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "transform-runtime"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-transform-runtime"
       ],
       "ignore": [
         "__mocks__",
@@ -55,18 +55,18 @@
     "production:esm": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "modules": false
           }
         ],
-        "react",
-        "flow"
+        "@babel/preset-react",
+        "@babel/preset-flow"
       ],
       "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "transform-runtime"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-transform-runtime"
       ],
       "ignore": [
         "__mocks__",
@@ -78,13 +78,13 @@
     },
     "test": {
       "presets": [
-        "env",
-        "react",
-        "flow"
+        "@babel/preset-env",
+        "@babel/preset-react",
+        "@babel/preset-flow"
       ],
       "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
       ]
     }
   }
