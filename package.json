@@ -1,6 +1,6 @@
 {
   "name": "@tiarebalbi/flux-module-report",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Module of Reports in the Code Splitting sample with Flux and React",
   "main": "src/index.js",
   "repository": "git@github.com:tiarebalbi/flux-module-report.git",
@@ -9,6 +9,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.9.5",
