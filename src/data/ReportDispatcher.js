@@ -18,4 +18,6 @@
 
 import { Dispatcher } from "flux";
 
-export default new Dispatcher();
+import type { Metric } from "../types";
+
+export default new Dispatcher<Metric>();
