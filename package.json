@@ -65,7 +65,7 @@
     "flow-coverage-report": "^0.7.0",
     "flow-typed": "^3.1.0",
     "husky": "^4.2.5",
-    "jest": "^25.3.0",
+    "jest": "^25.4.0",
     "jest-enzyme": "^7.1.2",
     "jsdom": "^16.2.2",
     "jsdom-global": "^3.0.2",
